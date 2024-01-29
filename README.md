@@ -1,12 +1,11 @@
-Velocity Child Theme Paket Portal Berita 5
-=================
-[berita5.velocitydeveloper.com](https://berita5.velocitydeveloper.com/)
+# Velocity Child Theme
 
 Child Theme for the Velocity System WordPress theme.
 
-### Required
-Theme Velocity versi 2.4.0 keatas , [Download](https://github.com/VelocityDeveloper/velocity/releases)
-
 ### Usage
-Simply download the zip and upload the zip (velocity-berita5.zip) under your WordPress dashboard at Appearance > Themes. Or extract and upload via FTP at wp-content/themes/.
 
+Simply download the zip and upload the zip (velocity-child-theme-master.zip) under your WordPress dashboard at Appearance > Themes. Or extract and upload via FTP at wp-content/themes/.
+
+### Renaming
+
+You can of course rename the zip file so it isn't called velocity-child-master.zip (you should do this so it makes more sense) and also change the "Theme Name" at the top of the style.css file.

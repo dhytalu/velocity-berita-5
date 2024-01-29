@@ -337,7 +337,18 @@ function vdberita_limit_text($text, $limit)
     }
     return $text;
 }
+if (!function_exists('justg_get_hit')) {
+    function justg_get_hit($post_id = null)
+    {
+        if (empty($post_id)) {
+            global $post;
+            $post_id = $post->ID;
+        }
+        $hit = get_post_meta($post_id, 'hit', true);
 
+        return $hit ? $hit : '0';
+    }
+}
 //register widget
 add_action('widgets_init', 'justg_widgets_init', 20);
 if (!function_exists('justg_widgets_init')) {

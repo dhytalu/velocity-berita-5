@@ -1,7 +1,6 @@
 <?php
 function module_vdposts($args = null, $style = null)
 {
-
     if (isset($args['sortby'])) {
         if ($args['sortby'] == 'view') {
             $args['orderby']    = 'meta_value_num';
